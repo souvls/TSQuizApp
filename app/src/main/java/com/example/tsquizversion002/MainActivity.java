@@ -55,22 +55,22 @@ public class MainActivity extends AppCompatActivity {
     public void Anwser(View v){
         switch (v.getId()){
             case R.id.btn_1:
-                btn_1.setBackgroundColor(Color.GREEN);
+                btn_1.setBackgroundResource(R.drawable.btn_green);
                 soundPool.play(s1,1,1,0,0,1);
                 break;
             case R.id.btn_2:
-                btn_2.setBackgroundColor(Color.RED);
+                btn_2.setBackgroundResource(R.drawable.btn_red);
                 soundPool.play(s2,1,1,0,0,1);
                 break;
             case R.id.btn_3:
-                btn_3.setBackgroundColor(Color.RED);
+                btn_3.setBackgroundResource(R.drawable.btn_red);
                 soundPool.play(s2,1,1,0,0,1);
                 break;
             case R.id.btn_4:
-                btn_4.setBackgroundColor(Color.RED);
+                btn_4.setBackgroundResource(R.drawable.btn_red);
                 soundPool.play(s2,1,1,0,0,1);
                 break;
         }
-        btn_1.setBackgroundColor(Color.GREEN);
+        btn_1.setBackgroundResource(R.drawable.btn_green);
     }
 }
