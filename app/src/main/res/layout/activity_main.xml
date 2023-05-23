@@ -92,11 +92,11 @@
             android:padding="10dp">
 
             <TextView
-                android:id="@+id/textView10"
-                android:layout_width="0dp"
+                android:id="@+id/txt_question"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Oil, natural gas and coal are  example of..."
+                android:text="1+1=?"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -116,10 +116,10 @@
                 android:onClick="Anwser"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView10">
+                app:layout_constraintTop_toBottomOf="@+id/txt_question">
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/txt_optionA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Fossil fuels"
@@ -144,7 +144,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_1">
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/txt_optionB"
                     style="@style/s"
                     android:text="Fossil fuels"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -168,7 +168,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_2">
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/txt_optionC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Renewable resources"
@@ -194,7 +194,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_3">
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/txt_optionD"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Geothermal resources"

@@ -40,4 +40,5 @@ private  ConstraintLayout btn_start;
         arl_danhMuc.add("Science and Nature");
         arl_danhMuc.add("Science and Nature");
     }
+
 }

@@ -2,11 +2,12 @@ package com.example.tsquizversion002.Models;
 
 public class QuestionModels {
 
-    private String correctAnswer;
+
     private String question;
     private String optionA;
     private String optionB;
     private String optionC;
+    private String correctAnswer;
 
     public QuestionModels(String question, String optionA, String optionB, String optionC, String correctAnswer) {
         this.question = question;
